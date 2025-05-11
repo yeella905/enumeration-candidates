@@ -14,8 +14,10 @@ require './filters'
 #puts "Is candidate 7 experienced?"
 #puts experienced?(find(7))  # Should print false
 
-candidate = find(5)
-pp candidate  # Should print the candidate with id 5
+#candidate = find(5)
+#pp candidate  # Should print the candidate with id 5
 
-not_found = find(100)
-pp not_found  # Should print nil
+#not_found = find(100)
+#pp not_found  # Should print nil
+
+pp qualified_candidates(@candidates)
